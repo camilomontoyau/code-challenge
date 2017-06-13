@@ -13,7 +13,7 @@ app.use('/api/v1', apiRoutes);
 
 app.use('/', express.static(`${__dirname}/public`));
 
-const port = process.env.port || 3000;
+const port = process.env.port || 10000;
 
 app.listen(port, () => {
   console.log(`API REST corriendo en http://localhost:${port}`);
