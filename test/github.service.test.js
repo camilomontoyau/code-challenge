@@ -1,7 +1,7 @@
 'use strict';
 const assert = require('chai').assert;
 const should = require('chai').should();
-const { getAllGists, getOneGist } = require('../github.service');
+const { getAllGists, getOneGist } = require('../services/github.service');
 
 describe('github service', ()=>{
   describe('getAllGists', ()=>{
